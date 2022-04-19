@@ -1,0 +1,13 @@
+<div>
+                <label for="country">Country</label>
+                <select name="country" id="country" value="<?php echo $country;?>">
+                    <option value="">Select your country</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                </select>
+            </div>
+            <?php echo displayError($error, 'country') ?>
+
+
+            
